@@ -1,0 +1,6 @@
+@article{REPO312,
+    author = "Ozbey, Muzaffer and Dalmaz, Onat and Dar, Salman UH and Bedel, Hasan A and Ozturk, Saban and Gungor, Alper and Cukur, Tolga",
+    journal = "arXiv preprint arXiv:2207.08208",
+    title = "{Unsupervised Medical Image Translation with Adversarial Diffusion Models}",
+    year = "2023"
+}
