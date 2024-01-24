@@ -1,0 +1,52 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            // "name": "Python: Current File",
+            // "type": "python",
+            // "request": "launch",
+            // "program": "${file}",
+            // "console": "integratedTerminal",
+            // "justMyCode": true
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "train.py",
+            // "cwd": "/HOME/HOME/gameday/gameday-3d-human-reconstruction-multi_view_panic3d-",
+            // "module": "_train.eg3dc.trainers.train_multi_view_panic3d_mask_encoder",
+            "console": "integratedTerminal",
+            "env": {
+                "CUDA_VISIBLE_DEVICES": "0,1"
+            },
+            "args": [
+                "--image_size=256",
+                "--exp=exp_syndiff",
+                "--num_channels=6",
+                "--num_channels_dae=64",
+                "--ch_mult","1","1","2","2","4","4",
+                "--num_timesteps=4",
+                "--num_res_blocks=2",
+                "--batch_size=1",
+                "--contrast1=co",
+                "--contrast2=fl",
+                "--num_epoch=500",
+                "--ngf=64",
+                "--embedding_type=positional",
+                "--use_ema",
+                "--ema_decay=0.999",
+                "--r1_gamma=1.",
+                "--z_emb_dim=256",
+                "--lr_d=1e-4",
+                "--lr_g=1.6e-4",
+                "--lazy_reg=10",
+                "--num_process_per_node=1",
+                "--save_content",
+                "--input_path=/data/denghuijie/MIP_proj/diabetes/input",
+                "--output_path=/data/denghuijie/MIP_proj/diabetes/output"
+            ]
+        }
+    ]
+}

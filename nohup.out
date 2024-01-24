@@ -1,0 +1,21 @@
+module_path = /data/denghuijie/VSCproj/SynDiff/utils/op
+padding in x-y with:0-0
+padding in x-y with:0-0
+padding in x-y with:0-0
+padding in x-y with:0-0
+train data size:625
+val data size:125
+initialize network with normal
+initialize network with normal
+initialize network with normal
+initialize network with normal
+padding in x-y with:0-0
+padding in x-y with:0-0
+padding in x-y with:0-0
+padding in x-y with:0-0
+train data size:625
+val data size:125
+initialize network with normal
+initialize network with normal
+initialize network with normal
+initialize network with normal
